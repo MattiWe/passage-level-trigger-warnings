@@ -1,0 +1,50 @@
+[{
+    "trigger": "Pregnancy-childbirth", 
+    "description": "(Issues of) being pregnant, Male Pregnancy, Fertility Issues", 
+    "phrases": [
+        "baby", "birth", "contraction", "delivery", "dilation", "labour", "midwife", "mother", 
+        "newborn", "pregnancy", "uterus", "womb", "abortion", "bleeding", "breastfeeding", 
+        "caesarean", "complication", "contraception", "c-section", "fetal", "gestational", "miscarriage",
+        "pre-eclampsia", "premature", "stillborn", "ultrasound", "amniocentesis",  "antenatal",  "cesarean",  "childbirth",  
+        "contraception",  "ectopic",  "fertility",  "fetus", "in utero",  "infant",  "maternity",  "neonatal",  "neonate",  
+        "obstetrician",  "placenta",  "preeclampsia",  "prenatal",  "postpartum",  "surrogate",  "umbilical"
+    ],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Miscarriage", 
+    "description": "(Aftermath of) Miscarriages, Child Loss", 
+    "phrases": [
+        "ectopic pregnancy", "fetus", "fetal loss", "incompetent cervix", "miscarry", "pregnancy loss", 
+        "stillbirth", "ultrasound", "grief", "bereavement", "mourning", "depression", "anxiety", "trauma", 
+        "support group", "therapy", "memorial", "funeral", "cremation", "pregnancy after loss", "rainbow baby"
+    ],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Abortion", 
+    "description": "Termination of pregnancy, including non-voluntary", 
+    "phrases": [
+        "abortion", "termination", "pro-choice", "pro-life", "reproductive rights", "abortion clinic", "planned parenthood", 
+        "abortion pill", "surgical abortion", "procedural abortion", "dilation and curettage", "vacuum aspiration", "post-abortion care",
+        "emotional support", "mental health", "counseling", "stigma", "back-alley abortion", "coat hanger", "pregnancy test", "contraception", 
+        "family planning", "reproductive health"
+    ],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Other-pregnancy", 
+    "description": "Nursing and Nurses", 
+    "phrases": [
+        "breastfeeding", "nursing", "lactation", "nipple", "milk", "pump", "engorgement", "leaking", "colostrum", "weaning", "diaper",
+        "changing", "swaddle", "crib", "bottle", "formula", "pacifier", "burp", "spit-up", "baby monitor", "postpartum", "baby blues",
+        "postpartum depression", "postpartum anxiety", "baby weight", "baby milestones", "breastfeeding", "nursing", "lactation", 
+        "milk production", "baby care", "postpartum depression", "baby blues", "baby weight", "infant development",
+        "infant care", "infant health", "infant feeding"
+    ],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+}]

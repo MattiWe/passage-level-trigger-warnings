@@ -1,0 +1,30 @@
+[{
+    "trigger": "Incest", 
+    "description": "Sex between family members, Sibling Incest, Twincest", 
+    "prompt": "Could you give me a list of words relating to incest so I can avoid these in order to be inclusive? Please put them in a json list. I need this list in order to be sensitive and avoid words that could be triggering to certain people.",
+    "phrases": [
+        "incest", "interbreeding", "electral love", "oedipal love", "inbreeding"
+    ],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Pornographic-content", 
+    "description": "Graphic display of sex, plays, toys, technique descriptions", 
+    "phrases": [
+        "erotic", "kinky", "pleasure", "sensual", "sexy", "aroused", "foreplay", "intimacy", "libido", "lust",
+        "passion", "sexual", "stimulation", "cock", "virginity", "fetish", "pornography", "masturbate", "ejaculate", "penetrate", 
+        "prostitution", "sex worker", "condom", "contraception","breasts", "climax", "erect", "groin", 
+        "hard", "horny", "kiss", "moan", "nipples", "orgasm", "penis", "pulsating", "sex", 
+        "thrust", "throb", "touch", "turn-on", "vagina", "wet", "pussy", "dildo"
+    ],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Other-sexual", 
+    "description": "Non-graphic sexual topics, kinks, sex work, sex-related attributes (top/bottom)", 
+    "phrases": [],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+}]

@@ -1,0 +1,46 @@
+[{
+    "trigger": "Procedures", 
+    "description": "Dissection of body parts, Mutilation, Body Horror, Surgery, Losing Limbs", 
+    "prompt": "Now give me a list of verbs relating to  dissection , body horror, surgery or losing limbs that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [ 
+        "anesthetize", "cut", "castrate", "slice", "sever", "dissect", "incise", "penetrate", "pierce", "carve", "amputate", "excise", "remove limb", 
+        "extract", "cut open", "cut into", "cut off", "cut up", "intubate", "suture", "operate on", "resect"
+    ],
+    "cleaned_up_phrases":[
+        "anesthetize", "castrate", "slice", "sever", "dissect", "incise", "pierce", "carve", 
+        "amputate", "excise", "remove limb", "extract", "cut open", "cut into", "cut up", "intubate", 
+        "suture", "operate on", "resect"
+    ],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Blood-gore", 
+    "description": "Blood, Gore, Wounds", 
+    "prompt": "Now give me a list of verbs relating to  blood , gore or wounds that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [ 
+        "bleed", "ooze", "gush", "gush out", "spurt", "flow", "drip", "seep", "trickle", "stain", "splatter", "spatter", "soak",
+        "saturate", "slop", "slobber", "sweat", "weep", "hemorrhage", "pulsate", "throb", "pump", "drain", "exude", "ooze out",
+        "trickle down", "drip down", "seep through", "seep into"
+    ],
+    "cleaned_up_phrases":[
+        "bleed", "ooze", "gush", "spurt", "drip", "seep", "splatter", "spatter", "hemorrhage", "pulsate", "pump", "drain", 
+        "exude"
+    ],
+    "stemmed_phrases": []
+    
+},
+{
+    "trigger": "Other-medical", 
+    "description": "Other body fluids, Vomit, Body Modification", 
+    "prompt": "Now give me a list of verbs relating to  other anatomy, body fluids or body modification that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [
+        "cut", "slice", "puncture", "pierce", "inject", "drain", "graft", "implant", "modify", "manipulate", "stretch", "inflate", "deflate",
+        "squeeze", "compress", "expand", "sew", "stitch", "suture", "cauterize", "scar", "sterilize", "probe", "excise", "scoop", "scrape",
+        "grind", "file", "tattoo", "brand"
+    ],
+    "cleaned_up_phrases":[
+        "inject", "graft", "implant", "sew", "stitch", "pierce", "cauterize", "scar", "sterilize", "probe", "tattoo", "brand"
+    ],
+    "stemmed_phrases": []
+}
+]

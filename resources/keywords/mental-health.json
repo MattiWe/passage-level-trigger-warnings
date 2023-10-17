@@ -1,0 +1,35 @@
+[{
+    "trigger": "Mental-illness", 
+    "description": "Severe mental illness, Hallucinations, Dissociative Identity Disorder, Insanity", 
+    "phrases": [],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Suicide", 
+    "description": "Suicide attempt, ideation, conduct, and aftermath", 
+    "phrases": [],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Self-harm", 
+    "description": "Self-destructive acts or behavior, Self-mutiliation", 
+    "phrases": [],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Addiction-and-Substance-Abuse", 
+    "description": "Substance Abuse, Depression", 
+    "phrases": [],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Dysmorphia", 
+    "description": "Eating disorders, body hatred, fat phobia", 
+    "phrases": [],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+}]

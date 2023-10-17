@@ -1,0 +1,48 @@
+{
+"extended-instruction": "A Warning is required if the text evokes a negative experience through the actions or speech of the characters, graphic descriptions, or through the narrative. A Warning is required if a vulnerable reader is harmed by reading the text.",
+"explanation": "After answering, provide a step-by-step explanation of your decision.",
+"text_prefix": "Text:",
+"tw_prompt": "Warning:",
+"yes": "yes",
+"no": "no",
+"misogyny": {
+  "instruction": "Assign `Warning: yes` if the following piece of a story contains misogyny, else assign `Warning: no`",
+  "persona": "Assume you have suffered from misogyny in the past and you want to be warned before reading a text that contains misogyny.",
+  "definition": "Misogyny is hatred, discrimination, prejudice, or violence against women or girls through sexism, degradation, patronization, or objectification."
+},
+"racism": {
+  "instruction": "Assign `Warning: yes` if the following piece of a story contains racism, else assign `Warning: no`",
+  "persona": "Assume you have suffered from racism in the past and you want to be warned before reading a text that contains racism",
+  "definition": "Racism is hatred, discrimination, prejudice, or violence against people based on their race, culture, or ethnicity."
+},
+"ableism": {
+  "instruction": "Assign `Warning: yes` if the following piece of a story contains ableism, else assign `Warning: no`",
+  "persona": "Assume you have suffered from ableism in the past and you want to be warned before reading a text that contains ableism",
+  "definition": "Ableism is hatred, discrimination, prejudice, or violence against people with physical or mental disabilities."
+},
+"homophobia": {
+  "instruction": "Assign `Warning: yes` if the following piece of a story contains homophobia, else assign `Warning: no`",
+  "persona": "Assume you have suffered from homophobia in tje past and you want to be warned before reading a text that contains homophobia",
+  "definition": "Homophobia is hatred, discrimination, prejudice, or violence against homosexual people, lesbians, gays or bisexuals."
+},
+"death": {
+  "instruction": "Assign `Warning: yes` if the following piece of a story contains death, else assign `Warning: no`",
+  "persona": "Assume you have suffered through the death or near-death of relatives or friends in the past and you want to be warned before reading a text that contains death",
+  "definition": "A text contains death through graphic or implied descriptions of dead people or creatures, actions leading to death, experiences of dying, and descriptions of grief."
+},
+"violence": {
+  "instruction": "Assign `Warning: yes` if the following piece of a story contains physical violence, else assign `Warning: no`",
+  "persona": "Assume you have suffered from physical violence in the past and you want to be warned before reading a text that contains physical violence",
+  "definition": "A text contains physical violence through graphic or implied descriptions of violent and harmful actions against people or creatures or destructive actions against objects."
+},
+"abduction": {
+  "instruction": "Assign `Warning: yes` if the following piece of a story contains abduction or kidnapping, else assign `Warning: no`",
+  "persona": "Assume you have suffered from abduction or kidnapping in the past and you want to be warned before reading a text that contains abduction or kidnapping",
+  "definition": "A text contains abduction or kidnapping through graphic or implied descriptions of, by force or deception, taking someone away and confining them against their will."
+},
+"war": {
+  "instruction": "Assign `Warning: yes` if the following piece of a story contains war, else assign `Warning: no`",
+  "persona": "Assume you have suffered from war in the past and you want to be warned before reading a text that contains War",
+  "definition": "A text contains war through graphic or implied descriptions of scenes of war or combat, the preparation for or aftermath of war or combat, or of war crimes."
+}
+}

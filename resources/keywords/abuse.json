@@ -1,0 +1,66 @@
+[{
+    "trigger": "Abuse", 
+    "description": "Domestic Violence, Verbal Abuse, Psychological Abuse, Bullying", 
+    "prompt":  "Now give me a list of verbs relating to any kind of abuse (physical, mental emotional, bullying, domestic violence)  that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [ 
+        "abandon", "batter", "belittle", "blame", "bully", "coerce", "control", "criticize", "deceive", "deny", "deride", "disparage", "dominate", 
+        "emotional abuse", "exclude", "gaslight", "harass", "humiliate", "ignore", "intimidate", "isolate", "manipulate", "mock", "neglect", 
+        "put down", "ridicule", "shame", "threaten", "traumatize", "terrorize", "undermine", "victimize", "withhold"
+    ],
+    "cleaned_up_phrases": [ 
+        "abandon", "batter", "belittle", "bully", "coerce", "control", "deceive", "deride", "disparage", "dominate", 
+        "emotional abuse", "gaslight", "harass", "humiliate", "intimidate", "isolate", "manipulate", "mock", "neglect", "put down", 
+        "ridicule", "shame", "threaten", "traumatize", "terrorize", "undermine", "victimize", "withhold"
+    ],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Sexual-abuse", 
+    "description": "Physical, sexual Violence, Rape, Sexual Abuse, Non-consensual Actions", 
+    "prompt": "Now give me a list of verbs relating to sexual assault that might be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'. ",
+    "phrases": [ 
+        "abuse", "assail", "assault", "attack", "blitz", "defile", "violate", "coerce", "corrupt", "force", "manipulate",  "prey", "manhandle",
+        "harass", "molest", "rape", "sexually abuse", "ravish", "touch", "traumatize", "grope", "grab", "penetrate", "undress", "strip", "expose", 
+        "groom", "overwhelm", "overpower", "seduce", "invade", "harm"
+    ],
+    "cleaned_up_phrases":[ 
+        "abuse", "assail", "assault", "attack", "blitz", "defile", "violate", "coerce", "corrupt", "force", "manipulate",  "prey", "manhandle", "harass", "molest", 
+        "rape", "sexually abuse", "traumatize", "grope", "groom", "overwhelm", "overpower", "invade"
+    ],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Animal-abuse", 
+    "description": "Violence/Harm against animals, Animal Abuse, Animal Mistreatment", 
+    "prompt":  "Now give me a list of verbs relating to animal cruelty  or ongoing animal mistreatment of any kind that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [ 
+        "abuse", "cage", "capture", "cull", "cut", "beat", "burn", "drown", "electrocute", "kill", "maim", "mistreat", "neglect", "poison", "shoot", "stab", "starve",
+        "exploit", "hunt", "mutilate", "torture", "use for experiments", "experiment on", "force feed", "brand"
+    ],
+    "cleaned_up_phrases":[ 
+        "abuse", "capture", "cull", "cut", "beat", "electrocute", "kill", "maim", "mistreat", "neglect", "poison", "shoot", "stab", "starve",
+        "exploit", "hunt", "mutilate", "torture", "use for experiments", "experiment on", "force feed", "brand"
+    ],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Child-abuse", 
+    "description": "Like abuse, but explicitly directed against children", 
+    "prompt":  "Now give me a list of verbs relating to child abuse  or ongoing child mistreatment of any kind that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [ 
+        "assault", "beat", "belittle", "burn", "chastize", "control", "criticize", "debase", "deprive", "discipline", "demean", "humiliate", "ignore", 
+        "insult", "intimidate", "corporal punishment", "manipulate", "neglect", "punish", "sexually abuse", "threaten", "yell at", "maltreat", "menace", 
+        "scold", "spurn", "terrorize", "traumatize", "violate"
+    ],
+    "cleaned_up_phrases":[ 
+        "assault", "beat", "belittle", "debase", "deprive", "discipline", "demean", "humiliate", "insult", "intimidate", "corporal punishment", 
+        "manipulate", "neglect", "punish", "sexually abuse", "threaten", "yell at", "maltreat", "menace", "scold", "spurn", "terrorize", "traumatize", 
+        "violate"
+    ],
+    "stemmed_phrases": []
+}
+]
+
+ 
+ 
+ 

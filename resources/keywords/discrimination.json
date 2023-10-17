@@ -1,0 +1,178 @@
+[{
+    "trigger": "Ableism", 
+    "description": "Discrimination against disabled persons, Ableist Language", 
+    "prompt": "Give me a list of ableist language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [
+        "crippled",  "retarded",  "handicapped",  "differently-abled",  "special needs",  "confined to a wheelchair",  "suffers from",  
+        "victim of", "crazy", "insane", "mad", "lunatic", "psycho", "nutcase", "schizo", "dumb", "stupid",
+        "idiot", "moron", "imbecile", "fool", "lame", "cripple", "handicap", "invalid", "blind as a bat", "deaf and dumb",
+        "crazy person", "mentally ill", "maniac", "spaz", "schizophrenic", "retard", "dumbbell", "madman", "imbecilic",
+        "foolish", "idiotic", "falling on deaf ears", "wheelchair-bound", "suffers from mental illness", "psychotic",
+        "has a screw loose", "basket case", "lunatic asylum", "nervous breakdown", "mental patient"
+    ],
+    "cleaned_up_phrases":[
+        "crippled",  "retarded",  "handicapped",  "differently-abled",  "special needs",  "confined to a wheelchair", "insane", 
+        "lunatic", "psycho", "nutcase", "schizo", "lame", "cripple", "handicap", "invalid", "blind as a bat", "deaf and dumb",
+        "mentally ill", "maniac", "spaz", "schizophrenic", "retard", "imbecilic", "wheelchair-bound", "suffers from mental illness", "psychotic",
+        "has a screw loose", "basket case", "lunatic asylum", "nervous breakdown", "mental patient"
+    ],
+    "stemmed_phrases": [
+        "crippl*", "retard*", "handicap*", "differently-abled", "special needs", "confined to a wheelchair", "insan*", "lunatic*", 
+        "psycho*", "nutcase", "schizo*", "lame", "invalid", "blind as a bat", "deaf and dumb", "mentally ill", "maniac*", "spaz", "imbecil*", 
+        "wheelchair-bound", "suffers from mental illness", "has a screw loose", "basket case", "nervous breakdown", "mental patient"
+    ]
+},
+{
+    "trigger": "Classism", 
+    "description": "Discrimination based on social class, Rich/Poor Divide, Class Oppression", 
+    "prompt":"Give me a list of classist language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [  
+        "poor",  "homeless",  "working class",  "welfare recipient",  "beneath my station",  "unfortunate",  "tramp",  
+        "beggar",  "deadbeat", "lower class", "broke", "uneducated", "unskilled", "blue collar", "redneck", "hillbilly",
+        "trailer trash", "white trash", "ghetto", "slum", "ghettoize", "welfare queen", "lazy", "moocher", "freeloader", "bum",
+        "homeless person", "street person", "vagrant", "hobo", "wino", "prostitute", "hooker", "streetwalker", "druggie", "junkie",
+        "addict", "crackhead", "alcoholic", "wasted", "drunk", "lush", "drunken bum", "slacker", "shiftless", "good-for-nothing",
+        "no-good", "leech", "parasite", "scrounger", "undeserving", "working poor", "have-nots", "privileged", "elitist", "snob",
+        "high and mighty", "arrogant", "entitled", "nouveau riche", "moneyed", "affluent", "well-to-do", "upper class",
+        "1%", "corporate fat cat", "fat cat", "tycoon", "mogul", "business magnate", "capitalist", "millionaire", "billionaire"
+    ],
+    "cleaned_up_phrases":[
+        "homeless", "working class", "welfare recipient", "beneath my station", "tramp", "beggar",  "deadbeat", "lower class", "broke", 
+        "uneducated", "unskilled", "blue collar", "redneck", "hillbilly", "trailer trash", "white trash", "ghetto", "slum", "ghettoize", 
+        "welfare queen", "moocher", "freeloader", "vagrant", "hobo", "wino", "prostitute", "hooker", "streetwalker", "druggie", "junkie",
+        "addict", "crackhead", "alcoholic", "slacker", "shiftless", "good-for-nothing",
+        "no-good", "leech", "parasite", "scrounger", "undeserving", "have-nots", "elitist", "snob", "nouveau riche", "moneyed", 
+        "upper class", "corporate fat cat"
+    ],
+    "stemmed_phrases": []
+}, 
+{
+    "trigger": "Homophobia/ Heterosexism", 
+    "description": "Discrimination against homosexuals, Homophobic Language, Gay Panic", 
+    "prompt":"Give me a list of homophobic language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [  
+        "fag", "gay", "lesbo", "fruity", "tinkle", "batty boy", "f*ggot", "dyke", "homo", "queer", "fairy", "sissy", "butch", "tranny",
+        "she-male", "cross-dresser", "gay agenda", "sexual preference", "unnatural", "against God's will", "lifestyle choice",
+        "conversion therapy", "gay lifestyle", "straight acting", "being gay is a sin", "disordered", "abnormal", "deviant",
+        "perverted", "confused", "homosexual lifestyle", "ex-gay", "homosexual behavior is a choice", "homosexual lifestyle is a phase",
+        "Adam and Steve", "It's just a phase", "That's so gay", "You're so gay"
+    ],
+    "cleaned_up_phrases":[
+        "fag", "gay", "lesbo", "fruity", "tinkle", "batty boy", "f*ggot", "dyke", "homo", "queer", "sissy", "butch", "tranny",
+        "she-male", "cross-dresser", "gay agenda", "conversion therapy", "straight acting", "being gay is a sin",  
+        "homosexual lifestyle", "ex-gay", "homosexual behavior is a choice", "being gay is a choice", "homosexual lifestyle is a phase",
+        "Adam and Steve", "That's so gay", "You're so gay"
+    ],
+    "stemmed_phrases": []
+}, 
+{
+    "trigger": "Sexism/ Misogyny", 
+    "description": "Discrimination/hate against women, Misogynistic Language", 
+    "prompt":"Give me a list of misogynistic language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [  
+        "bitch", "slut", "whore", "hoe", "skank", "dragon lady", "bimbo", "Femme Fatale", "hysterical", "nagging", "btch", "whre", 
+        "cunt", "gold digger", "dumb blonde", "bossy", "too emotional", "shrill", "crazy", "drama queen", "attention seeker",
+        "baby-making machine", "trophy wife", "mail-order bride", "maid", "barefoot and pregnant", "you're too pretty to be", "asking for it", 
+        "boys will be boys", "locker room talk", "not like other girls", "must be that time of the month",
+        "too aggressive", "hormonal",  
+        "playing the gender card",  "oversensitive", "man up", "like a girl", "such a girl", "pussy ",
+        "Be a man", "ladylike", "real women have curves",
+        "stop being so hormonal", "you're not a real woman if you don't have children", "you're too old to be single", 
+        "you'll change your mind about", "you're too pretty to be single", "you need a man to take care of you",
+        "feminazi", "man-hater", "girly-man", "boy toy", "cougar", "old maid", "tomboy", "pimp", "ho-bag", "testosterone-fueled", 
+        "chick", "daddy issues", "emasculate"
+    ],
+    "cleaned_up_phrases":[
+        "bitch", "slut", "whore", "hoe", "skank", "dragon lady", "bimbo", "Femme Fatale", "hysterical", "nagging", "btch", "whre", 
+        "cunt", "gold digger", "dumb blonde", "bossy", "too emotional", "shrill", "drama queen", "attention seeker",
+        "baby-making machine", "trophy wife", "mail-order bride", "barefoot and pregnant", "too pretty to be", "asking for it", 
+        "boys will be boys", "locker room talk", "not like other girls", "must be that time of the month",
+        "too aggressive", "hormonal",  "playing the gender card",  "oversensitive", "man up", "like a girl", "such a girl", 
+        "Be a man", "ladylike", "real women have curves", "you're not a real woman if you don't have children", "too old to be", 
+        "you need a man to take care of you", "feminazi", "man-hater", "girly-man", "boy toy", "cougar", "tomboy", "pimp", "ho-bag", 
+        "testosterone-fueled", "chick", "daddy issues", "emasculate"
+    ],
+    "stemmed_phrases": [
+        "bitch", "slut", "whore", "hoe", "skank", "dragon lady", "bimbo", "femme fatale", "hyster*", "nag*", "btch", "whre", "cunt", 
+        "gold digg*", "dumb blonde", "bossy", "too emotional", "shrill", "drama queen", "attention*seek*", "baby-making machine", "trophy wife", "mail-order bride", 
+        "barefoot and pregnant", "too pretty to", "asking for it", "boys will be boys", "locker room talk", "not like other girls", 
+        "must be that time of the month", "too aggressive", "hormonal", "playing the gender card", "oversensitive", "man up", "like a girl", "such a girl", 
+        "be a man", "ladylike", "real women have curves", "you're not a real woman if you don't have children", "too old to", 
+        "you need a man to take care of you", "feminazi", "man*hater", "girly-man", "boy toy", "cougar", "tomboy", "pimp", "ho-bag", "testosterone-fuelled", 
+        "chick", "daddy issues", "emascul*"
+    ]
+}, 
+{
+    "trigger": "Racism", 
+    "description": "Discrimination based on race, including fantasy races,  Fantastic Prejudice", 
+    "prompt": "Give me a list of racist language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [  
+        "nigger",  "chink",  "spic",  "gook",  "wetback",  "jap",  "darkie",  "kike",  "dago",  "nip", "ngger", "chnk", "spc",
+        "g**k", "sand nigger", "towelhead", "curry muncher", "redskin", "half-breed", "slant eyes", "model minority", "exotic",
+        "savage", "primitive", "barbaric", "uncivilized", "tribal", "oriental", "blackface", "white supremacy", "Aryan race",
+        "master race", "racial purity", "colorblind", "reverse racism", "you're so articulate for", "you're pretty for a",
+        "go back to your country", "Speak English", "you're not like other", "you're one of the good ones", "I don't see color",
+        "All lives matter"
+    ],
+    "cleaned_up_phrases":[
+        "nigger",  "chink",  "spic",  "gook",  "wetback",  "jap",  "darkie",  "kike",  "dago", "ngger", "chnk", "spc",
+        "towelhead", "curry muncher", "redskin", "half-breed", "slant eyes", "model minority", "savage", "primitive", 
+        "barbaric", "uncivilized", "tribal", "blackface", "white supremacy", "aryan race", "master race", "racial purity", "colorblind", 
+        "racism", "articulate for", "pretty for a", "go back to your country", "you're not like other", 
+        "you're one of the good ones", "I don't see color", "All lives matter"
+    ],
+    "stemmed_phrases": []
+}, 
+{
+    "trigger": "Religious Discrimination", 
+    "description": "Discrimination based on religious stereotypes, Islamophobia, Antisemitism", 
+    "prompt": "Could you give me a list of words relating to religious discrimination so I can avoid these in order to be inclusive? Please put them in a json list.",
+    "phrases": [
+        "infidel", "kafir", "heretic", "heathen", "apostate", "idolator", "unbeliever", "blasphemer", "pagan", "idol worshipper",
+        "zionist", "jihadist", "crusader", "terrorist", "fanatic", "extremist", "fundamentalist", "radical", "holy war", "jihad", "fatwa", 
+        "sharia law", "islamic state", "christian nation", "religious cult", "heaven", "hell", "salvation", "damnation", "proselytizing", 
+        "missionary", "conversion therapy", "anti-semitism", "islamophobia"
+    ],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+}, 
+{
+    "trigger": "Transphobia", 
+    "description": "Discrimination against transgender persons", 
+    "prompt": "Give me a list of transphobic language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [  
+        "tranny",  "she-male",  "he-she",  "it",  "shim",  "deceptive",  "mentally ill",  "freak",  "weirdo",  "perverted",
+        "ladyboy", "tranny chaser", "freak of nature", "gender freak", "gender-bending freak", "transvestite",
+        "cross-dresser", "gender-bender"
+    ],  
+    "cleaned_up_phrases":[
+        "tranny",  "she-male",  "he-she", "shim", "freak", "ladyboy", "tranny chaser", "freak", "transvestite", "cross-dresser", "gender-bender"
+    ],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Body-Shaming", 
+    "description": "Negative and/ or unsolicited commentary about ones own or another person's body", 
+    "prompt": "Could you give me a list of words relating to body shaming so I can avoid these in order to be inclusive? Please put them in a json list.",
+    "phrases": [
+        "fat", "skinny", "obese", "overweight", "underweight", "cellulite", "flabby", "untoned", "muffin top", "thunder thighs", 
+        "spare tire", "man boobs", "pear shape", "apple shape", "saddlebags", "love handles", "bat wings", "double chin", "mommy tummy", 
+        "dad bod", "plus size", "too skinny", "too fat", "bulky", "beanpole", "emaciated", "anorexic", "bulimic", "thick", "big-boned", 
+        "chubby", "curvy", "skin and bones", "meathead", "jiggly", "muscle-bound"
+    ],
+    "cleaned_up_phrases":[
+        "fat", "skinny", "obese", "overweight", "underweight", "cellulite", "flabby", "untoned", "muffin top", "thunder thighs", 
+        "spare tire", "man boobs", "pear shape", "apple shape", "love handles", "double chin", "mommy tummy", 
+        "dad bod", "plus size", "too skinny", "too fat", "bulky", "beanpole", "emaciated", "anorexic", "bulimic", "thick", "big-boned", 
+        "chubby", "curvy", "skin and bones", "meathead", "jiggly", "muscle-bound"
+    ],
+    "stemmed_phrases": []
+},
+{
+    "trigger": "Hate-Speech", 
+    "description": "", 
+    "prompt": "Give me a list of hateful language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [],
+    "cleaned_up_phrases": [],
+    "stemmed_phrases": []
+}]

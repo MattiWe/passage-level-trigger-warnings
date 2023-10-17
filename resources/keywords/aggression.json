@@ -1,0 +1,125 @@
+[{
+    "trigger": "Violence", 
+    "description": "Physical violence, Manhandling, Torture, Murder", 
+    "prompt": "Please give me a list of verbs relating to violence that might be triggering to people. Put them in a json list. ",
+    "phrases":[ 
+        "assault", "assassinate", "attack", "beat", "batter", "bruise", "bludgeon", "burn", "choke", "crush", "destroy", "execute", "hit", 
+        "hurt", "impale", "injure", "kick", "kill", "maim", "massacre", "murder", "mutilate", "punch", "shoot", "slaughter", "slay", "stab",
+        "strangle", "torture"
+    ],
+    "cleaned_up_phrases": [
+        "assault", "attack", "beat", "batter", "bruise", "bludgeon", "burn", "choke", "crush", "destroy", "execute", "hit", 
+        "hurt", "impale", "injure", "kick", "kill", "maim", "massacre", "murder", "mutilate", "punch", "shoot", "slaughter", "slay", "stab",
+        "strangle", "torture"
+    ],
+    "stemmed_phrases": [
+        "assault", "attack", "beat", "batter", "bruis", "bludgeon", "burn", "choke", "crush", "destroy", "execut", "hit", "hurt",
+        "impal", "injur", "kick", "kill", "maim", "massacr", "murder", "mutil", "punch", "shoot", "slaughter", "slay", "stab", "strangl", "tortur"
+    ]
+},
+
+{
+    "trigger": "Kidnapping/ Abduction", 
+    "description": "Abduction by deception, kidnapping, hostage situations, Captivity", 
+    "prompt":  "Now give me a list of verbs relating to abduction that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [  
+        "kidnap", "abduct", "detain", "drug", "snatch", "steal", "seize", "confine", "hold hostage", "imprison", "enslave", 
+        "forcibly remove", "restrain", "capture", "hold for ransom", "take hostage",
+        "drag away", "intercept", "lock up", "sequester"
+    ],
+    "cleaned_up_phrases": [
+        "kidnap", "abduct", "detain", "snatch", "seize", "confine", "hold hostage", "imprison", "enslave", 
+        "forcibly remove", "restrain", "capture", "hold for ransom", "take hostage",
+        "drag away", "intercept", "lock up", "sequester"
+    ],
+    "stemmed_phrases": [
+        "kidnap", "abduct", "detain", "snatch", "seiz", "confin", "hold hostage", "imprison", "enslav", "forcibly remove", "restrain", "captur",
+        "hold for ransom", "take hostage", "drag away", "intercept", "lock up", "sequest"
+    ]
+},
+{
+    "trigger": "War", 
+    "description": "War as a violent conflict between nations, states, or groups over political, economic, or social issues.", 
+    "prompt":  "Now give me a list of verbs relating to war that may be triggering to people so I can avoid them. Put them in a json list and keep all the verbs in infinitive without the 'to'.",
+    "phrases": [
+        "attack", "invade", "invasion", "occupy", "occupation", "bomb", "shell", "kill", "destroy", "destruction", "massacre", "torture", "wound", "rape", "terrorize", 
+        "displace", "evacuate", "fight", "combat", "struggle", "fire", "ambush", "besiege", "butcher", "execute", "exterminate", 
+        "assault", "slaughter", "snipe", "storm", "violate", "attack civilians", "use chemical weapons", "use biological weapons", 
+        "use nuclear weapons", "declare war", "propagate war", "war crime"
+    ],
+    "cleaned_up_phrases":[
+        "invade", "invasion", "occupy", "occupation", "bomb", "shell", "destroy", "destruction", "massacre", "wound", "rape", "terrorize", 
+        "displace", "evacuate", "combat", "besiege", "slaughter", "snipe", "civilians", 
+        "chemical weapons", "biological weapons", "nuclear weapons", "declare war", "propagate war", "war crime"
+    ],
+    "stemmed_phrases": [
+        "invad", "invasion", "occup","occupation", "bomb", "chemical weapon", "shell", "destroy", "destruction", "massacr", "wound", 
+        "rape", "terror", "displac", "nuclear weapon", "evacu", "combat", "besieg", "slaughter", "snipe", "civilian", "biological weapon", 
+        "declare war", "propagat war", "war crime"
+    ]
+},
+{
+    "trigger": "Death, animal death, other death, dying", 
+    "description": "Death of others, Character death, Killing, Corpses, Coping with Loss or Grief", 
+    "prompt": "Now give me a list of verbs relating to the death of others, character death, killing, corpses, or coping with loss or grief that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [
+        "mourn", "grieve", "cry", "sob", "lament", "suffer", "struggle", "deal with loss", "cope with grief",
+        "comfort", "console", "bury", "inter", "cremate", "remember", "honor", "respect", "accept", "process", "come to terms with",
+        "deal with", "face", "confront", "kill", "murder", "slay", "take a life", "cause death", "end a life", "corpse", "dead body",
+        "lifeless form", "remains", "cadaver", "pass away", "die", "cease", "lose", "suffer loss", "experience grief", "navigate bereavement",
+        "struggle with mourning", "manage sorrow", "cope with death", "deal with deceased",
+        "weep", "cry", "sob", "lament", "suffer", "struggle", "deal with loss", "cope with grief", "comfort", "console", "bury",
+        "inter", "cremate", "remember", "honor", "respect", "accept", "process", "come to terms with", "deal with", "face", "confront", "put down",
+        "euthanize", "kill", "slaughter", "sacrifice", "take a life", "end a life", "put to sleep", "cause death", "corpse", "dead body",
+        "lifeless form", "remains", "cadaver", "pass away", "die", "cease", "lose", "suffer loss", "experience grief", "navigate bereavement",
+        "struggle with mourning", "manage sorrow", "cope with death", "deal with deceased",
+        "suffer", "struggle", "fight", "gasping", "gasp", "drown", "sink", "fade", "weaken", "wane", "slip away",
+        "pass", "expire", "depart", "die", "cease", "succumb", "let go", "release", "euthanize", "end life",
+        "choose to die", "end suffering", "peacefully pass away",
+        "kill", "attack", "bite", "devour", "consume", "feast", "eat", "chew", "gnaw", "rip", "tear", "slaughter", "murder", "destroy", "eliminate",
+        "terminate", "annihilate", "exterminate", "undead", "reanimate", "rise again", "come back to life", "resurrect", "revive", "consume flesh",
+        "cannibalize", "prey upon", "feast on", "consume brains", "devour flesh", "rip apart", "tear into", "consume human flesh","zombify",
+        "reanimate as a zombie", "consume blood", "drink blood", "suck blood", "drain blood", "vampirize", "turn into a vampire", "resurrection",
+        "cannibalism", "zombification", "vampirism", "undeadness", "death-like state", "necromancy", "revival", "post-mortem consumption",
+        "flesh-eating", "blood-sucking", "reanimation", "risen from the dead"
+    ],
+    "cleaned_up_phrases": [
+        "mourn", "grieve", "deal with loss", "cope with grief","bury", "inter", "cremate", "come to terms with", "murder", "slay", "take a life", 
+        "cause death", "end a life", "corpse", "dead body",
+        "lifeless form", "cadaver", "pass away", "die", "cease", "experience grief", "navigate bereavement", "struggle with mourning", "manage sorrow", "weep",
+        "euthanize", "slaughter", "sacrifice", "suffer loss", "cope with death", 
+        "choose to die", "end suffering", "peacefully pass away", "undead", "reanimate","come back to life", "resurrect", 
+        "revive", "consume flesh", "cannibalize", "consume brains", "devour flesh",
+        "consume blood", "drink blood", "suck blood", "cannibalism",  "necromancy", "flesh-eating", "blood-sucking", "risen from the dead"
+    ],
+    "stemmed_phrases": [
+        "mourn", "griev", "deal with loss", "cop with grief", "bury", "buri", "inter", "cremat", "coming to terms with", "murder", "slay", "take a life", "cause death", 
+        "end a life", "corpse", "dead body", "lifeless form", "cadaver", "pass away", "die", "ceas", "experiencing grief", "navigating bereavement", "struggling with mourning", 
+        "manag sorrow", "weep", "euthaniz", "slaughter", "sacrific", "suffer loss", "cop with death", "cho to die", "end suffering", "peacefully pass away", "undead",
+        "reanimat", "c*m back to life", "resurrect", "reviv", "consum brains", "devour flesh", "consum blood", "drink blood", "suck blood", "cannibalism",
+        "necromancy", "flesh-eating", "blood-sucking", "risen from the dead"
+    ]
+},
+{
+    "trigger": "Other-aggression", 
+    "description": "Slavery and modern slavery", 
+    "prompt":  "Now give me a list of words relating to slavery or modern slavery that may be triggering to people so I can avoid them. Put them in a json list and keep all the verbs in infinitive without the 'to'.",
+    "phrases": [
+        "enslave", "kidnap", "traffick", "exploit", "abuse", "oppress", "force", "coerce", "dehumanize", "discriminate", 
+        "marginalize", "violence", "torture", "brutalize", "chattel", "bondage", "indenture", "servitude", "forced labor", 
+        "human trafficking", "sexual slavery", "child labor", "modern-day slavery", "slavery reparations", "slavery apology",
+        "forced marriage", "debt bondage", "peonage", "exploitative working conditions", "domestic servitude", "human exploitation", 
+        "sex trafficking", "labor exploitation", "child soldier", "bonded labor", "child exploitation", "slavery-like practices", 
+        "slave trade", "sexual exploitation", "involuntary servitude", "trafficking in persons", "modern-day slavery", "trafficking of children", 
+        "slavery in supply chains", "forced labor in supply chains", "forced domestic work", "forced labor in agriculture", 
+        "forced labor in mining", "forced begging", "forced criminality", "deceptive recruitment"
+    ],
+    "cleaned_up_phrases":[
+        "enslave", "traffick", "exploit", "oppress", "dehumanize", "chattel", "indenture", "forced labor", 
+        "slavery", "child labor", "forced marriage", "debt bondage", "peonage", "exploitative", "domestic servitude", 
+        "child soldier", "slave trade", "exploitation", "involuntary servitude", "trafficking", 
+        "forced begging", "forced criminality", "deceptive recruitment"
+    ],
+    "stemmed_phrases": []
+}
+]
