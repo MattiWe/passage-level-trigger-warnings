@@ -1,0 +1,148 @@
+{
+    "misogyny": {
+    "description": "Discrimination/hate against women, Misogynistic Language",
+    "prompt":"Give me a list of misogynistic language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [
+        "bitch", "slut", "whore", "hoe", "skank", "dragon lady", "bimbo", "Femme Fatale", "hysterical", "nagging", "btch", "whre", "cunt", "gold digger", "dumb blonde", "bossy", "too emotional", "shrill", "crazy", "drama queen", "attention seeker", "baby-making machine", "trophy wife", "mail-order bride", "maid", "barefoot and pregnant", "you're too pretty to be", "asking for it", "boys will be boys", "locker room talk", "not like other girls", "must be that time of the month", "too aggressive", "hormonal", "playing the gender card",  "oversensitive", "man up", "like a girl", "such a girl", "pussy ", "Be a man", "ladylike", "real women have curves", "stop being so hormonal", "you're not a real woman if you don't have children", "you're too old to be single", "you'll change your mind about", "you're too pretty to be single", "you need a man to take care of you", "feminazi", "man-hater", "girly-man", "boy toy", "cougar", "old maid", "tomboy", "pimp", "ho-bag", "testosterone-fueled", "chick", "daddy issues", "emasculate"
+    ],
+    "cleaned_up_phrases":[
+        "bitch", "slut", "whore", "hoe", "skank", "dragon lady", "bimbo", "Femme Fatale", "hysterical", "nagging", "btch", "whre", "cunt", "gold digger", "dumb blonde", "bossy", "too emotional", "shrill", "drama queen", "attention seeker", "baby-making machine", "trophy wife", "mail-order bride", "barefoot and pregnant", "too pretty to be", "asking for it", "boys will be boys", "locker room talk", "not like other girls", "must be that time of the month", "too aggressive", "hormonal",  "playing the gender card",  "oversensitive", "man up", "like a girl", "such a girl", "Be a man", "ladylike", "real women have curves", "you're not a real woman if you don't have children", "too old to be", "you need a man to take care of you", "feminazi", "man-hater", "girly-man", "boy toy", "cougar", "tomboy", "pimp", "ho-bag", "testosterone-fueled", "chick", "daddy issues", "emasculate"
+    ],
+    "omitted_phrases": [
+        "crazy", "maid", "pussy", "stop being so hormonal", "you'll change your mind about", "old maid"
+    ],
+    "stemmed_phrases": [
+        "bitch", "slut", "whore", "hoe", "skank", "dragon lady", "bimbo", "femme fatale", "hyster*", "nag*", "btch", "whre", "cunt", "gold digg*", "dumb blonde", "bossy", "too emotional", "shrill", "drama queen", "attention*seek*", "baby-making machine", "trophy wife",  "mail-order bride", "barefoot and pregnant", "too pretty to", "asking for it", "boys will be boys", "locker room talk", "not like other girls", "must be that time of the month", "too aggressive", "hormonal", "playing the gender card", "oversensitive", "man up", "like a girl", "such a girl", "be a man", "ladylike", "real women have curves", "you're not a real woman if you don't have children", "too old to", "you need a man to take care of you", "feminazi", "man*hater", "girly-man", "boy toy", "cougar", "tomboy", "pimp", "ho-bag",  "testosterone-fuelled", "chick", "daddy issues", "emascul*"
+    ],
+    "set_1": [
+        "b[i]tch", "slut", "wh[o]re", "hoe", "skank", "dragon lady", "bimbo", "femme fatale", "hyster*", "nag*", "cunt", "gold digg*", "dumb blonde", "bossy", "too emotional", "shrill", "drama queen", "attention*seek*", "baby-making machine", "trophy wife", "mail-order bride", "barefoot and pregnant", "too pretty to", "asking for it", "boys will be boys"],
+    "set_2": [
+        "locker room talk", "not like other girls",
+        "must be that time of the month", "too aggressive", "hormonal", "playing the gender card", "oversensitive", "man up", "like a girl", "such a girl", "be a man", "ladylike", "real women have curves", "you're not a real woman if you don't have children", "too old to", "you need a man to take care of you", "feminazi", "man*hater", "girly-man", "boy toy", "cougar", "tomboy", "pimp", "ho-bag", "testosterone-fuelled", "chick", "daddy issues", "emascul*"]
+    },
+    "racism": {
+    "description": "Discrimination based on race, including fantasy races,  Fantastic Prejudice",
+    "prompt": "Give me a list of racist language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [
+        "nigger",  "chink",  "spic",  "gook",  "wetback",  "jap",  "darkie",  "kike",  "dago",  "nip", "ngger", "chnk", "spc", "g**k", "sand nigger", "towelhead", "curry muncher", "redskin", "half-breed", "slant eyes", "model minority", "exotic", "savage", "primitive", "barbaric", "uncivilized", "tribal", "oriental", "blackface", "white supremacy", "Aryan race", "master race", "racial purity", "colorblind", "reverse racism", "you're so articulate for", "you're pretty for a", "go back to your country", "Speak English", "you're not like other", "you're one of the good ones", "I don't see color", "All lives matter"
+    ],
+    "omitted_phrases": [
+        "sand nigger", "exotic", "oriental", "reverse racism", "Speak English"
+    ],
+    "cleaned_up_phrases":[
+        "nigger",  "chink",  "spic",  "gook",  "wetback",  "jap",  "darkie",  "kike",  "dago", "ngger", "chnk", "spc", "towelhead", "curry muncher", "redskin", "half-breed", "slant eyes", "model minority", "savage", "primitive", "barbaric", "uncivilized", "tribal", "blackface", "white supremacy", "aryan race", "master race", "racial purity", "colorblind", "racism", "articulate for", "pretty for a", "go back to your country", "you're not like other", "you're one of the good ones", "I don't see color", "All lives matter"
+    ],
+    "stemmed_phrases": [],
+    "set_1": [
+      "n[i]gger", "ch[i]nk", "sp[i]c", "g[oo]k", "wetback", "jap", "darkie", "kike", "dago", "towelhead", "curry muncher", "redskin", "half-breed", "slant eyes"],
+    "set_2": [
+      "model minority", "savage", "primitive", "barbaric", "uncivilized", "tribal", "blackface", "white supremacy", "aryan race", "master race", "racial purity", "colorblind", "racism", "articulate for", "pretty for a", "go back to your country", "you're not like other", "you're one of the good ones", "i don't see color", "all lives matter"]
+    },
+    "homophobia": {
+    "description": "Discrimination against homosexuals, Homophobic Language, Gay Panic",
+    "prompt":"Give me a list of homophobic language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [
+        "fag", "gay", "lesbo", "fruity", "tinkle", "batty boy", "f*ggot", "dyke", "homo", "queer", "fairy", "sissy", "butch", "tranny", "she-male", "cross-dresser", "gay agenda", "sexual preference", "unnatural", "against God's will", "lifestyle choice", "conversion therapy", "gay lifestyle", "straight acting", "being gay is a sin", "disordered", "abnormal", "deviant", "perverted", "confused", "homosexual lifestyle", "ex-gay", "homosexual behavior is a choice", "homosexual lifestyle is a phase", "Adam and Steve", "It's just a phase", "That's so gay", "You're so gay"
+    ],
+    "omitted_phrases": ["sexual preference", "unnatural", "against God's will", "lifestyle choice", "gay lifestyle",
+        "disordered", "abnormal", "deviant", "perverted", "confused", "it's just a phase"],
+    "cleaned_up_phrases":[
+        "fag", "gay", "lesbo", "fruity", "tinkle", "batty boy", "f*ggot", "dyke", "homo", "queer", "sissy", "butch", "tranny", "she-male", "cross-dresser", "gay agenda", "conversion therapy", "straight acting", "being gay is a sin", "homosexual lifestyle", "ex-gay", "homosexual behavior is a choice", "being gay is a choice", "homosexual lifestyle is a phase", "Adam and Steve", "That's so gay", "You're so gay"
+    ],
+    "stemmed_phrases": [],
+    "set_1": [
+      "f[a]g*", "gay", "lesbo", "fruity", "tinkle", "batty boy", "dyke", "homo", "queer", "sissy", "butch", "tranny"],
+    "set_2": [
+      "she-male", "cross[-]dresser", "gay agenda", "conversion therapy", "straight acting", "being gay is a sin", "homosexual lifestyle", "ex-gay", "homosexual behavior is a choice", "being gay is a choice", "homosexual lifestyle is a phase", "adam and steve", "that's so gay", "you're so gay"]
+    },
+    "ableism":  {
+    "description": "Discrimination against disabled persons, Ableist Language",
+    "prompt": "Give me a list of ableist language (as a json list) that must be avoided in a story for people that are triggered by it.",
+    "phrases": [
+        "crippled", "retarded", "handicapped", "differently-abled", "special needs", "confined to a wheelchair", "suffers from", "victim of", "crazy", "insane", "mad", "lunatic", "psycho", "nutcase", "schizo", "dumb", "stupid", "idiot", "moron", "imbecile", "fool", "lame", "cripple", "handicap", "invalid", "blind as a bat", "deaf and dumb", "crazy person", "mentally ill", "maniac", "spaz", "schizophrenic", "retard", "dumbbell", "madman", "imbecilic", "foolish", "idiotic", "falling on deaf ears", "wheelchair-bound", "suffers from mental illness", "psychotic", "has a screw loose",  "basket case", "lunatic asylum", "nervous breakdown", "mental patient"
+    ],
+    "omitted_phrases": [],
+    "cleaned_up_phrases":[
+        "crippled",  "retarded",  "handicapped",  "differently-abled",  "special needs",  "confined to a wheelchair", "insane", "lunatic", "psycho", "nutcase", "schizo", "lame", "cripple", "handicap", "invalid", "blind as a bat", "deaf and dumb", "mentally ill", "maniac", "spaz", "schizophrenic", "retard", "imbecilic", "wheelchair-bound", "suffers from mental illness", "psychotic", "has a screw loose", "basket case", "lunatic asylum", "nervous breakdown", "mental patient"
+    ],
+    "stemmed_phrases": [
+        "crippl*", "retard*", "handicap*", "differently-abled", "special needs", "confined to a wheelchair", "insan*", "lunatic*", "psycho*", "nutcase", "schizo*", "lame", "invalid", "blind as a bat", "deaf and dumb", "mentally ill", "maniac*", "spaz", "imbecil*", "wheelchair-bound", "suffers from mental illness", "has a screw loose", "basket case", "nervous breakdown", "mental patient"
+    ],
+    "set_1": [
+      "crippl*", "retard*", "handicap*", "differently-able[d]", "special neeed[s]", "confined to a wheelchair", "insan*", "lunatic", "psycho*", "nutcase", "schizo*", "lame", "invalid"],
+    "set_2": [
+      "blind as a bat", "deaf and dumb", "mentally ill", "maniac*", "spaz", "imbecil*", "wheelchair-bound", "suffers from mental illness", "has a screw loose", "basket case", "nervous breakdown", "mental patient"]
+    },
+    "violence": {
+    "description": "Physical violence, Manhandling, Torture, Murder",
+    "prompt": "Please give me a list of verbs relating to violence that might be triggering to people. Put them in a json list. ",
+    "phrases":[
+        "assault", "assassinate", "attack", "beat", "batter", "bruise", "bludgeon", "burn", "choke", "crush", "destroy", "execute", "hit", "hurt", "impale", "injure", "kick", "kill", "maim", "massacre", "murder", "mutilate", "punch", "shoot", "slaughter", "slay", "stab", "strangle", "torture"
+    ],
+    "omitted_phrases": [],
+    "cleaned_up_phrases": [
+        "assault", "attack", "beat", "batter", "bruise", "bludgeon", "burn", "choke", "crush", "destroy", "execute", "hit", "hurt", "impale", "injure", "kick", "kill", "maim", "massacre", "murder", "mutilate", "punch", "shoot", "slaughter", "slay", "stab", "strangle", "torture"
+    ],
+    "stemmed_phrases": [
+        "assault", "attack", "beat", "batter", "bruis", "bludgeon", "burn", "choke", "crush", "destroy", "execut", "hit", "hurt", "impal", "injur", "kick", "kill", "maim", "massacr", "murder", "mutil", "punch", "shoot", "slaughter", "slay", "stab", "strangl", "tortur"
+    ],
+    "set_1": [
+      "assault*", "attack*", "beat*", "batter*", "bruis*", "bludgeon*", "burn*", "choke*", "crush*", "destroy*", "execut*", "hurt*", "impal*", "injur*"],
+    "set_2": [
+      "kick*", "kill*", "maim*", "massacr*", "murder*", "mutilat*", "punch*", "shoot*", "shot", "slaughter*", "slay*", "stab*", "strangle*", "tortur*", "hit*"]
+    },
+    "abduction": {
+    "description": "Abduction by deception, kidnapping, hostage situations, Captivity",
+    "prompt":  "Now give me a list of verbs relating to abduction that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [
+        "kidnap", "abduct", "detain", "drug", "snatch", "steal", "seize", "confine", "hold hostage", "imprison", "enslave", "forcibly remove", "restrain", "capture", "hold for ransom", "take hostage", "drag away", "intercept", "lock up", "sequester"
+    ],
+    "omitted_phrases": ["forcibly remove"],
+    "cleaned_up_phrases": [
+        "kidnap", "abduct", "detain", "snatch", "seize", "confine", "hold hostage", "imprison", "enslave", "forcibly remove", "restrain", "capture", "hold for ransom", "take hostage", "drag away", "intercept", "lock up", "sequester"
+    ],
+    "stemmed_phrases": [
+        "kidnap", "abduct", "detain", "snatch", "seiz", "confin", "hold hostage", "imprison", "enslav", "forcibly remove", "restrain", "captur", "hold for ransom", "take hostage", "drag away", "intercept", "lock up", "sequest"
+    ],
+    "set_1": [
+      "kidnap*", "abduct*", "detain*", "snatch*", "seiz*", "confine*", "h[e|o]old hostage", "holding hostage", "imprison*", "enslave*"],
+    "set_2": [
+      "restrain*", "captur*", "hold for ransom", "take hostage", "drag away", "intercept*", "lock up", "sequest*"]
+    },
+    "war": {
+    "description": "War as a violent conflict between nations, states, or groups over political, economic, or social issues.",
+    "prompt":  "Now give me a list of verbs relating to war that may be triggering to people so I can avoid them. Put them in a json list and keep all the verbs in infinitive without the 'to'.",
+    "phrases": [
+        "attack", "invade", "invasion", "occupy", "occupation", "bomb", "shell", "kill", "destroy", "destruction", "massacre", "torture", "wound", "rape", "terrorize", "displace", "evacuate", "fight", "combat", "struggle", "fire", "ambush", "besiege", "butcher", "execute", "exterminate", "assault", "slaughter", "snipe", "storm", "violate", "attack civilians", "use chemical weapons", "use biological weapons", "use nuclear weapons", "declare war", "propagate war", "war crime"
+    ],
+    "omitted_phrases": [],
+    "cleaned_up_phrases":[
+        "invade", "invasion", "occupy", "occupation", "bomb", "shell", "destroy", "destruction", "massacre", "wound", "rape", "terrorize", "displace", "evacuate", "combat", "besiege", "slaughter", "snipe", "civilians", "chemical weapons", "biological weapons", "nuclear weapons", "declare war", "propagate war", "war crime"
+    ],
+    "stemmed_phrases": [
+        "invad", "invasion", "occup","occupation", "bomb", "chemical weapon", "shell", "destroy", "destruction", "massacr", "wound", "rape", "terror", "displac", "nuclear weapon", "evacu", "combat", "besieg", "slaughter", "snipe", "civilian", "biological weapon", "declare war", "propagat war", "war crime"
+    ],
+    "set_1": [
+      "invad*", "occup*", "bomb*", "chemical weapon[s]", "shell*", "destroy*", "destruction", "massacr*", "wound*", "rape*", "terrorize*", "terror", "displac*"],
+    "set_2": [
+      "nuclear weapon[s]", "evacuat*", "combat*", "besieg*", "slaughter*", "snip*", "civilian[s]", "biological weapon[s]", "declar* war", "propagat* war", "war crim*", "occupation", "destruction"]
+    }, 
+    "death": {
+    "description": "Death of others, Character death, Killing, Corpses, Coping with Loss or Grief",
+    "prompt": "Now give me a list of verbs relating to the death of others, character death, killing, corpses, or coping with loss or grief that may be triggering to people so I can avoid them. Put them in a json list and keep all the words in infinitive without the 'to'.",
+    "phrases": [
+        "mourn", "grieve", "cry", "sob", "lament", "suffer", "deal with loss", "cope with grief", "comfort", "console", "bury", "inter", "cremate", "remember", "honor", "respect", "accept", "process", "come to terms with", "deal with", "face", "confront", "kill", "slay", "weep", "put down", "slaughter", "sacrifice", "take a life", "end a life", "put to sleep", "cause death", "corpse", "dead body", "lifeless form", "remains", "cadaver", "pass away", "lose", "suffer loss", "experience grief", "navigate bereavement", "struggle with mourning", "manage sorrow", "cope with death", "deal with deceased", "struggle", "fight", "gasping", "gasp", "drown", "sink", "fade", "weaken", "wane", "slip away", "pass", "expire", "depart", "die", "cease", "succumb", "let go", "release", "euthanize", "end life", "choose to die", "end suffering", "peacefully pass away", "attack", "bite", "devour", "consume", "feast", "eat", "chew", "gnaw", "rip", "tear", "slaughter", "murder", "destroy", "eliminate", "terminate", "annihilate", "exterminate", "undead", "reanimate", "rise again", "come back to life", "resurrect", "revive", "consume flesh", "cannibalize", "prey upon", "feast on", "consume brains", "devour flesh", "rip apart", "tear into", "consume human flesh","zombify", "reanimate as a zombie", "consume blood", "drink blood", "suck blood", "drain blood", "vampirize", "turn into a vampire", "resurrection", "cannibalism", "zombification", "vampirism", "undeadness", "death-like state", "necromancy", "revival", "post-mortem consumption", "flesh-eating", "blood-sucking", "reanimation", "risen from the dead"
+    ],
+    "omitted_phrases": [],
+    "cleaned_up_phrases": [
+        "mourn", "grieve", "deal with loss", "cope with grief","bury", "inter", "cremate", "come to terms with", "murder", "slay", "take a life", "cause death", "end a life", "corpse", "dead body", "lifeless form", "cadaver", "pass away", "die", "cease", "experience grief", "navigate bereavement", "struggle with mourning", "manage sorrow",  "weep", "euthanize", "slaughter", "sacrifice", "suffer loss", "cope with death", "choose to die", "end suffering", "peacefully pass away", "undead", "reanimate", "come back to life", "resurrect", "revive", "consume flesh", "cannibalize", "consume brains", "devour flesh", "consume blood", "drink blood", "suck blood", "cannibalism",  "necromancy", "flesh-eating", "blood-sucking", "risen from the dead"
+    ],
+    "stemmed_phrases": [
+        "mourn", "griev", "deal with loss", "cop with grief", "bury", "buri", "inter", "cremat", "coming to terms with", "murder", "slay", "take a life", "cause death", "end a life", "corpse", "dead body", "lifeless form", "cadaver", "pass away", "die", "ceas", "experiencing grief", "navigating bereavement",  "struggling with mourning", "manag sorrow", "weep", "euthaniz", "slaughter", "sacrific", "suffer loss", "cop with death", "cho to die", "end suffering", "peacefully pass away", "undead", "reanimat", "c*m back to life", "resurrect", "reviv", "consum brains", "devour flesh", "consum blood", "drink blood", "suck blood", "cannibalism", "necromancy", "flesh-eating", "blood-sucking", "risen from the dead"
+    ],
+    "set_1": [
+      "mourn*", "griev*", "deal* with loss", "cop* with grief", "bur[i|y]*", "inter*", "cremat*", "coming to terms with", "murder*", "slay*", "take a life", "cause death", "end a life", "corpse", "dead body", "lifeless form", "cadaver", "pass* away", "die[s|d]", "dying", "ceas*", "experiencing grief", "navigating bereavement", "struggling with mourning", "manage* sorrow", "weep*", "euthaniz*", "slaughte*", "sacrific*", "put* to sleep", "suffer* loss", "cope* with death"],
+    "set_2": [
+      "undead", "cannibalism", "necromancy", "end suffering", "flesh-eating", "blood-sucking", "risen from the dead", "cho*s* to die", "peacefully pass* away", "reanimat*", "c[a|o]m* back to life", "resurrect*", "reviv*", "cannabaliz*", "consum* brains", "consum* blood", "drink* blood", "suck* blood", "devour* flesh"]
+    }
+}

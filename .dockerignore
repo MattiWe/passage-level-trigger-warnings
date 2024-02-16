@@ -1,1 +1,13 @@
-resources/keywords
+resources/keywords/
+resources/generated/
+resources/models/
+resources/classification-results/
+resources/annotation-results/
+resources/tmp/
+sequence_level_trigger_warning_assignment/wandb/
+.idea/
+.venv/
+*/__pycache__/
+
+poetry.toml
+
