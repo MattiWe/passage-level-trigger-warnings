@@ -1,4 +1,4 @@
-# aacl24-trigger-warnings
+# acl24-trigger-warnings
 
 This repository contains the data and code for **If there's a Trigger Warning, then where's the Trigger? Investigating Trigger Warnings at the Passage Level**. 
 
